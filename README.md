@@ -4,7 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Weather App which shows the current weather as well as shows the Weather forecast. This app consist minimalist user interface to show both the type of weather (current and forecast) in the single screen.
 
-- Initially, when page loads it shows weather as per the latitude longitude. We can click the edit icon to change the city by typing the name of the city, as we want. After fetching the city info. It umblocks the location icon to click. By Clicking on the location icon we can get weather as per geolocation again. After fetching the detailes and icon will become unclickable.
+Initially, when page loads it shows weather as per the latitude longitude. We can click the edit icon to change the city by typing the name of the city, as we want. After fetching the city info. It umblocks the location icon to click. By Clicking on the location icon we can get weather as per geolocation again. After fetching the detailes and icon will become unclickable.
+
+-Deployed Link :
+https://live-weather-eight.vercel.app/
 
 - using geolocation
   ![alt text](/public/image.png)
