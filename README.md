@@ -6,6 +6,12 @@ Weather App which shows the current weather as well as shows the Weather forecas
 
 - Initially, when page loads it shows weather as per the latitude longitude. We can click the edit icon to change the city by typing the name of the city, as we want. After fetching the city info. It umblocks the location icon to click. By Clicking on the location icon we can get weather as per geolocation again. After fetching the detailes and icon will become unclickable.
 
+- using geolocation
+  ![alt text](/public/image.png)
+
+- using City
+  ![alt text](/public/cityWeather.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
