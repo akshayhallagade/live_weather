@@ -1,6 +1,10 @@
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Assignment Overview:
+
+Weather App which shows the current weather as well as shows the Weather forecast. This app consist minimalist user interface to show both the type of weather (current and forecast) in the single screen.
+
+- Initially, when page loads it shows weather as per the latitude longitude. We can click the edit icon to change the city by typing the name of the city, as we want. After fetching the city info. It umblocks the location icon to click. By Clicking on the location icon we can get weather as per geolocation again. After fetching the detailes and icon will become unclickable.
 
 ## Available Scripts
 
@@ -8,63 +12,76 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Run the Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Follow below steps to run the appilcation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Downlaod the reposiratory from Github.
+2. run command "install i".
+3. run command "npm run start".
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Dependencies used
 
-## Learn More
+1. Tailwind CSS
+2. Router-Dom
+3. React-Icons
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation Instructions:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Tailwind CSS
 
-### Code Splitting
+- run below commands
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+        npm install -D tailwindcss
+        npx tailwindcss init
 
-### Analyzing the Bundle Size
+- Add the template in tailwind.config.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+        /** @type {import('tailwindcss').Config} */
+        module.exports = {
+        content: ["./src/**/*.{html,js}"],
+        theme: {
+            extend: {},
+        },
+        plugins: [],
+        }
 
-### Making a Progressive Web App
+- Add the tailwind deliveries to CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. React-router-dom
 
-### Deployment
+- run the command
+  npm i react-router-dom --save
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+3. React-icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- run the command
+
+        npm install @react-icons/all-files --save
+
+## Configuration
+
+1. util folder - containes icons files
+
+## Issues and Troubleshooting
+
+1. Used Free API which gives only 25req/hour. so, After the request quota exhaust data doesnt load in the application.
+   If we are using app for commerical perpose then we can give pay for more request per hour.
+
+## Contact
+
+1. Reach out to me at --> akshayhallagade.work@gmail.com
